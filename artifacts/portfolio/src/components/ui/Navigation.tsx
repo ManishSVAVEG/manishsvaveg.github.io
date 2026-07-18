@@ -70,7 +70,7 @@ export default function Navigation() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between">
 
           {/* Logo */}
-          <a href="#hero" className="flex items-center gap-3 group" onClick={() => setMenuOpen(false)}>
+          <a href="#hero" className="flex items-center gap-3 group no-underline" onClick={() => setMenuOpen(false)}>
             <div className="relative w-12 h-12 sm:w-14 sm:h-14 border border-primary/40 bg-card/80 flex items-center justify-center flex-shrink-0 transition-all duration-300 group-hover:border-primary/70 group-hover:bg-primary/10">
               <img
                 src={logoPath}
