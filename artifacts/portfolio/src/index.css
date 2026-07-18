@@ -94,7 +94,7 @@
   --app-font-mono: 'JetBrains Mono', monospace;
   --app-font-display: 'Orbitron', sans-serif;
   
-  --radius: 0rem;
+  --radius: 0.5rem;
 
   /* Computed borders */
   --primary-border: hsl(var(--primary));
@@ -349,6 +349,7 @@
 .debris-cube {
   background: transparent !important;
   border: 2px solid var(--dc, #00D4FF);
+  border-radius: 0 !important;
   opacity: 0.12;
   box-shadow: none;
   animation: debris-orbit var(--dur, 20s) ease-in-out infinite var(--delay, 0s),
@@ -369,6 +370,7 @@
   justify-content: center;
   backface-visibility: hidden;
   border: 1px solid rgba(0,212,255,0.2);
+  border-radius: 0 !important;
   background: rgba(5,10,15,0.92);
   backdrop-filter: blur(10px);
 }
